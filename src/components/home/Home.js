@@ -13,6 +13,9 @@ function Home() {
                     <p>
                         Nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero
                     </p>
+                    <button className='btn-hero'>
+                        S'inscrire
+                    </button>
                 </div>
             </div>
             <div className='right'>

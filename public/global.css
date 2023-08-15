@@ -15,6 +15,13 @@ body{
 h1,h2,p,span{
     color: var(--dark);
 }
+button{
+    border: none;
+    padding: .8rem .5rem;
+    border-radius: 5em;
+    background-color: #0f2b7a;
+    color: #fff;
+}
 #root{
     width: 100%;
     padding: 0.5rem 1rem;
