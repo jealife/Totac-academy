@@ -52,5 +52,9 @@
     .left-content h1{ 
         font-size: 8.9vw; 
         margin-bottom: .5rem; 
+        padding-right: 0px;
     } 
+    .left{
+        padding:80px .5rem;
+    }
 }
