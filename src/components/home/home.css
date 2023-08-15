@@ -1,6 +1,6 @@
 
 .hero h1{ 
-    text-transform: uppercase; 
+    text-transform: capitalize; 
 } 
 .hero img{ 
     height: 400px; 
@@ -9,4 +9,40 @@
     min-height: 100vh;
     min-height: 100dvh;
     gap: 2.5rem; 
+    max-width: 1579px;
+    padding-top: 85px;
 } 
+
+.right{
+    background-color: #000;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    padding-top:80px;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    /* justify-content:center; */
+    width: 100%;
+    height: 100%;
+}
+.left-content{
+    display:flex;
+    gap:18px;
+    flex-direction:column;
+    padding-right:80px;
+
+}
+.left-content h1{
+    font-size: 65px;
+}
+.left-content{
+    font-size:18px;
+}
