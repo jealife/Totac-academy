@@ -1,0 +1,25 @@
+.link-item{
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 500;
+}
+nav,.menu{
+    display: flex;
+}
+nav{
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1200px;
+    align-items: center;
+    padding: .5rem;
+}
+.logo img{
+    width: 125px;
+}
+.menu {
+    gap: 1rem;
+}
+
+.active{
+    color:orangered
+}
