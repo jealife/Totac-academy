@@ -54,6 +54,7 @@
 .btn-hero{
     width: 150px;
     font-size: 18px;
+    cursor: pointer;
 
 }
 

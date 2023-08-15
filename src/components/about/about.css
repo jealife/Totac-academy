@@ -1,11 +1,21 @@
-.hero h1{ 
+section>h1{ 
     text-transform: uppercase; 
+    /* color: #fff; */
 } 
-.hero img{ 
-    height: 400px; 
+section{ 
+    
+    background-color:#121b27;
 } 
-.hero{ 
-    min-height: 100vh;
-    min-height: 100dvh;
-    gap: 2.5rem; 
-} 
+@keyframes in-circle-swoop {
+    from {
+      clip-path: var(--circle-top-right-out);
+    }
+    to {
+      clip-path: var(--circle-bottom-right-in);
+    }
+  }
+  
+  [transition-style="in:custom:circle-swoop"] {
+    --transition__duration: 5s;
+    animation-name: in-circle-swoop;
+  }
