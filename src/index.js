@@ -9,9 +9,7 @@ import 'transition-style';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-  <header>
     <Navbar/>
-  </header>
     <App />
   </BrowserRouter>
 );

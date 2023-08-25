@@ -22,14 +22,6 @@ button{
     background-color: #0f2b7a;
     color: #fff;
 }
-#root{
-    width: 100%;
-    padding: 0.5rem 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .container{
     width: 100%;
