@@ -11,9 +11,7 @@ import {
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import logo from '../../assets/images/Logo_TOTAC.png'
-import { Link } from "react-scroll";
-// import Home from "../home/Home";
-// import About from "../about/About";
+// import { Link } from "react-scroll";
 
 const formations = [
     { name: 'Formation des Consultants', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
@@ -56,7 +54,7 @@ export default function Navbar() {
                         onClick={() => setMobileMenuOpen(true)}
                     >
                         <span className="sr-only">Open main menu</span>
-                        {mobileMenuOpen==true ? <XMarkIcon className="h-6 w-6" aria-hidden="true" /> : <Bars3CenterLeftIcon className="h-6 w-6" aria-hidden="true" />}
+                        {mobileMenuOpen===true ? <XMarkIcon className="h-6 w-6" aria-hidden="true" /> : <Bars3CenterLeftIcon className="h-6 w-6" aria-hidden="true" />}
                         
                         
                     </button>

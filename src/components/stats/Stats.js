@@ -9,7 +9,6 @@ const stats = [
   { id: 3, name: 'Missions solidaires par an', value: 600 }
 ]
 
-const orange='#ff7607';
 export default function Stats() {
   return (
     <div className="bg-white lg:py-32 py-24 sm:py-7  flex flex-col  items-center gap-14">
