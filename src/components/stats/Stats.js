@@ -25,7 +25,7 @@ export default function Stats() {
                 <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
                   {({ isVisible }) => (
                     <div className='h-9 flex justify-center text-center'>
-                      {isVisible ? <CountUp className={` text-[${orange}]`} end={stat.value} /> :''}
+                      {isVisible ? <CountUp className='text-[orange]' end={stat.value} /> :''}
                     </div>
                   )}
                 </VisibilitySensor>

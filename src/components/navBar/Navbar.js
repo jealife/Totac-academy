@@ -11,6 +11,7 @@ import {
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import logo from '../../assets/images/Logo_TOTAC.png'
+import { Link } from "react-scroll";
 // import Home from "../home/Home";
 // import About from "../about/About";
 
@@ -35,14 +36,16 @@ export default function Navbar() {
 
     return (
         <header className="bg-white w-full fixed z-50 top-0 shadow-lg">
+            
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
 
                 {/* Logo nav */}
                 <div className="flex lg:flex-1">
-                    <NavLink to='/' className="-m-1.5 p-1.5">
+                    <NavLink to="/" spy={true} smooth={true} offset={-85} duration={500} className="-m-1.5 p-1.5">
                         <span className="sr-only">TOTAC Academy</span>
                         <img className="h-9 w-auto" src={logo} alt="" />
                     </NavLink>
+                    
                 </div>
 
                 {/* menu mobile */}
