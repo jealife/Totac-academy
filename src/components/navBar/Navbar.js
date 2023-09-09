@@ -15,7 +15,7 @@ import { Link } from "react-scroll";
 // import Home from "../home/Home";
 // import About from "../about/About";
 
-const products = [
+const formations = [
     { name: 'Formation des Consultants', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
     { name: 'Formation des Formateurs', description: 'Speak directly to your customers', href: '#', icon: AcademicCapIcon },
     { name: 'Devenez Formateur Digital', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
@@ -36,7 +36,7 @@ export default function Navbar() {
 
     return (
         <header className="bg-white w-full fixed z-50 top-0 shadow-lg">
-            
+
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
 
                 {/* Logo nav */}
@@ -45,7 +45,7 @@ export default function Navbar() {
                         <span className="sr-only">TOTAC Academy</span>
                         <img className="h-9 w-auto" src={logo} alt="" />
                     </NavLink>
-                    
+
                 </div>
 
                 {/* menu mobile */}
@@ -88,7 +88,7 @@ export default function Navbar() {
 
                             <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                                 <div className="p-4">
-                                    {products.map((item) => (
+                                    {formations.map((item) => (
                                         <div
                                             key={item.name}
                                             className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-[#c5d0ffc5]"
@@ -156,10 +156,10 @@ export default function Navbar() {
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <NavLink href="#" className="-m-1.5 p-1.5">
-                            <span className="sr-only">Your Company</span>
+                            <span className="sr-only">TOTAC Academy</span>
                             <img
                                 className="h-8 w-auto"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                                src={logo}
                                 alt=""
                             />
                         </NavLink>
@@ -179,14 +179,14 @@ export default function Navbar() {
                                     {({ open }) => (
                                         <>
                                             <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                                                Product
+                                                Formation
                                                 <ChevronDownIcon
                                                     className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
                                                     aria-hidden="true"
                                                 />
                                             </Disclosure.Button>
                                             <Disclosure.Panel className="mt-2 space-y-2">
-                                                {[...products, ...callsToAction].map((item) => (
+                                                {[...formations, ...callsToAction].map((item) => (
                                                     <Disclosure.Button
                                                         key={item.name}
                                                         as="a"
@@ -204,29 +204,29 @@ export default function Navbar() {
                                     href="#"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    Features
+                                    Accompagnement
                                 </NavLink>
                                 <NavLink
                                     href="#"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    Marketplace
+                                    Blog
                                 </NavLink>
                                 <NavLink
-                                    href="#"
+                                    to="/a-propos"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    Company
+                                    A propos
                                 </NavLink>
                             </div>
-                            <div className="py-6">
+                            {/* <div className="py-6">
                                 <NavLink
-                                    href="#"
+                                    to="/a-propos"
                                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
                                     Log in
                                 </NavLink>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </Dialog.Panel>
