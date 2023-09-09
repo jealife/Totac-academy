@@ -9,6 +9,7 @@ const stats = [
   { id: 3, name: 'Missions solidaires par an', value: 600 }
 ]
 
+const orange='#ff7607';
 export default function Stats() {
   return (
     <div className="bg-white lg:py-32 py-24 sm:py-7  flex flex-col  items-center gap-14">
@@ -23,8 +24,8 @@ export default function Stats() {
               <dd className="order-first text-3xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                 <VisibilitySensor partialVisibility offset={{ bottom: 200 }}>
                   {({ isVisible }) => (
-                    <div className=' h-9 flex justify-center text-center'>
-                      {isVisible ? <CountUp end={stat.value} /> :''}
+                    <div className='h-9 flex justify-center text-center'>
+                      {isVisible ? <CountUp className={` text-[${orange}]`} end={stat.value} /> :''}
                     </div>
                   )}
                 </VisibilitySensor>
