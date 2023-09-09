@@ -3,12 +3,12 @@ import React from 'react'
 export default function CyclesSection() {
     return (
         <div className='w-full bg-indigo-100'>
-            <div className="mx-auto max-w-7xl px-3 lg:px-8 min-h-screen flex flex-col gap-14  justify-center py-9" id='cyles'>
+            <div className="mx-auto max-w-7xl px-3 lg:px-8  flex flex-col gap-14  justify-center py-10" id='cyles'>
                 <h1 className='text-gray-900 font-semibold text-3xl text-center'>Cycles de Formation</h1>
                 <div className='grid grid-cols-1 lg:grid-cols-3 justify-center gap-5'>
 
                     <div className="rounded-2xl   w-full bg-white lg:text-center pb-5 shadow-lg">
-                        <div className="w-full text-center px-4 flex flex-col  justify-center relative  items-center ">
+                        <div className="w-full text-center px-4 flex flex-col  justify-center relative  items-center md:w-96 ">
                             <div className="w-full flex justify-center item-center">
 
                                 <img className='w-72 -mb-20  pb-2' src="https://totac.ma/wp-content/uploads/2023/05/Consultative-sales-pana-1024x1024.png"
@@ -33,7 +33,7 @@ export default function CyclesSection() {
                         <div className="w-full text-center px-4 flex flex-col  justify-center relative  items-center ">
                             <div className="w-full flex justify-center item-center">
 
-                                <img className='w-72  py-5  ' src="https://totac.ma/wp-content/uploads/2023/05/Fichier-1.png"
+                                <img className='w-72  py-5 mt-5  ' src="https://totac.ma/wp-content/uploads/2023/05/Fichier-1.png"
                                     alt=""
                                 />
                             </div>
