@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
 import {
-    Bars3Icon,
+    Bars3CenterLeftIcon,
     ChartPieIcon,
     FingerPrintIcon,
     SquaresPlusIcon,
@@ -56,7 +56,9 @@ export default function Navbar() {
                         onClick={() => setMobileMenuOpen(true)}
                     >
                         <span className="sr-only">Open main menu</span>
-                        <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+                        {mobileMenuOpen==true ? <XMarkIcon className="h-6 w-6" aria-hidden="true" /> : <Bars3CenterLeftIcon className="h-6 w-6" aria-hidden="true" />}
+                        
+                        
                     </button>
                 </div>
 
@@ -178,7 +180,7 @@ export default function Navbar() {
                                 <Disclosure as="div" className="-mx-3 pt-3">
                                     {({ open }) => (
                                         <>
-                                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
+                                            <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 mt-5 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                                                 Formation
                                                 <ChevronDownIcon
                                                     className={classNames(open ? 'rotate-180' : '', 'h-5 w-5 flex-none')}
