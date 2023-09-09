@@ -15,13 +15,13 @@ body{
 h1,h2,p,span{
     color: var(--dark);
 }
-button{
+/* button{
     border: none;
     padding: .8rem .5rem;
     border-radius: 5em;
     background-color: #0f2b7a;
     color: #fff;
-}
+} */
 
 .container{
     width: 100%;
@@ -90,3 +90,4 @@ button{
         margin-bottom: .5rem; 
     } 
 }
+

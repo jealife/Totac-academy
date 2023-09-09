@@ -6,10 +6,13 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 
+const orange='#ff7607';
+const blue='#0400ff';
+
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home/> } />
+      <Route path="/" element={<Home/>} />
       <Route path="/a-propos" element={<About/> } />
     </Routes>
   );
