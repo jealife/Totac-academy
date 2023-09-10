@@ -21,23 +21,34 @@ export default function Hero() {
             }}
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-2xl pt-32  sm:py-48 lg:py-56">
 
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               Se former pour se Transformer
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600">
+            <p className="mt-6 text-lg leading-8 text-gray-600"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="200" 
+            >
               À TOTAC, nous croyons profondément dans le pouvoir de la transformation personnelle et professionnelle à travers l’apprentissage et nous croyons en nos apprenants.
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
+            <div className="mt-10 flex items-center justify-center gap-x-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="300" 
+            >
               <Link to="cyles" spy={true} smooth={true} offset={-85} duration={500}
                 className="rounded-md bg-[blue] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 cursor-pointer"
               >
                 Formations
               </Link>
-              <a href="#" className="text-sm font-semibold leading-6 text-gray-900 hover:text-[orange] cursor-pointer">
-                En savoir plus sur la pédagogie TOTAC  <span aria-hidden="true hover:text-[#ff7607]">→</span>
+              <a href="/" className="text-sm font-semibold leading-6 text-gray-900 hover:text-[orange] cursor-pointer">
+                En savoir plus sur la pédagogie TOTAC  <span aria-hidden="true" className="hover:text-[#ff7607]">→</span>
               </a>
             </div>
           </div>
