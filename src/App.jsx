@@ -1,6 +1,6 @@
 import { Routes,Route} from 'react-router-dom';
-import Home from './components/home/Home';
-import About from './components/about/About';
+import Home from './pages/home/Home';
+import About from './pages/about/About';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..

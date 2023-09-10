@@ -1,26 +1,26 @@
 import React from 'react'
 
-const cycles = [
-    {
-        name: "Formation des Consultants",
-        description: "Développez le mindset du consultant et ses postures et maîtrisez l’ingénierie du conseil. Cerise sur le gâteau : vous apprenez aussi à élaborez vos différents produits de conseil !",
-        imagUrl: 'https://totac.ma/wp-content/uploads/2023/05/Consultative-sales-pana-1024x1024.png'
-    },
-    {
-        name: "Formation des Formateurs",
-        description: "Un cycle développé sur la base des dernières recherches en neurosciences (fonctionnement du cerveau), psychologie (étude du comportement) et pédagogie (science de la formation).",
-        imagUrl: 'https://totac.ma/wp-content/uploads/2023/05/Fichier-1.png'
-    },
-    {
-        name: "Devenez Formateur Digital",
-        description: "Apprenez à créer des formations, les animer et les vendre à 100 % en ligne. Ce cycle allie habilement le digital learning et l’innovation pédagogique.",
-        imagUrl: 'https://totac.ma/wp-content/uploads/2023/05/Webinar-amico-1024x1024.png'
-    }
-]
+// const cycles = [
+//     {
+//         name: "Formation des Consultants",
+//         description: "Développez le mindset du consultant et ses postures et maîtrisez l’ingénierie du conseil. Cerise sur le gâteau : vous apprenez aussi à élaborez vos différents produits de conseil !",
+//         imagUrl: 'https://totac.ma/wp-content/uploads/2023/05/Consultative-sales-pana-1024x1024.png'
+//     },
+//     {
+//         name: "Formation des Formateurs",
+//         description: "Un cycle développé sur la base des dernières recherches en neurosciences (fonctionnement du cerveau), psychologie (étude du comportement) et pédagogie (science de la formation).",
+//         imagUrl: 'https://totac.ma/wp-content/uploads/2023/05/Fichier-1.png'
+//     },
+//     {
+//         name: "Devenez Formateur Digital",
+//         description: "Apprenez à créer des formations, les animer et les vendre à 100 % en ligne. Ce cycle allie habilement le digital learning et l’innovation pédagogique.",
+//         imagUrl: 'https://totac.ma/wp-content/uploads/2023/05/Webinar-amico-1024x1024.png'
+//     }
+// ]
 
 export default function CyclesSection() {
     return (
-        <div className='w-full bg-indigo-100'>
+        <div className='w-full bg-indigo-100 py-14'>
             <div className="mx-auto max-w-7xl px-3 lg:px-8  flex flex-col gap-14  justify-center py-10" id='cyles'>
                 <h1 className='text-gray-900 font-semibold text-3xl text-center'>Cycles de Formation</h1>
                 <div className='grid grid-cols-1 lg:grid-cols-3 justify-center gap-5'>
