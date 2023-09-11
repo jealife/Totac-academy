@@ -18,7 +18,6 @@ const servicesCompany = [
         href: '#',
     },
 ]
-const blue='#264A8A'
 export default function ServicesCompany() {
     return (
         <div className='w-full bg-white-100 py-24'>
@@ -34,14 +33,14 @@ export default function ServicesCompany() {
                         servicesCompany.map((item) => (
                             <div className="item flex flex-col justify-center text-center items-center
                             ">
-                                <div className="rounded-full shadow-xl bg-gray-800 p-2">
+                                <div className="rounded shadow-xl p-2" style={{backgroundColor:"#ffffff", borderRadius:9999, boxShadow:"rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px"}}>
                                     <img className='bg-gray-700' src={item.imageUrl} alt=""
                                         width={200}
                                         height={200}
                                     />
                                 </div>
                                 <div className="btn">
-                                    <button className='mt-5 rounded-xl p-3   bg-[{#264A8A}] hover:bg-blue-600 duration-75 text-white  lg:self-center'>
+                                    <button className="mt-5 rounded-xl p-3   bg-[blue] hover:bg-blue-600 duration-75 text-white  lg:self-center">
                                         <Link href={item.href}>
                                             {item.name}
                                         </Link>
