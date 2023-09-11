@@ -11,7 +11,7 @@ const stats = [
 
 export default function Stats() {
   return (
-    <div className="bg-white lg:py-32 py-24 sm:py-7  flex flex-col  items-center gap-14 relative isolate">
+    <div className="bg-white lg:py-32 py-14 sm:py-7  flex flex-col  items-center gap-14 relative isolate">
 
       <h2 className='text-3xl font-semibold text-gray-900'>La saga TOTAC</h2>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
