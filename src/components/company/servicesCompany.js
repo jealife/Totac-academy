@@ -34,9 +34,10 @@ export default function ServicesCompany() {
                             <div className="item flex flex-col justify-center text-center items-center
                             "
                                 data-aos="fade-up"
-                                data-aos-duration="1000">
-                                <div className="rounded-full bg-white shadow-xl p-2" style={{boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px" }}>
-                                    <img  src={item.imageUrl} alt=""
+                                data-aos-duration="1000"
+                            >
+                                <div className="rounded-full bg-white shadow-xl p-2" style={{ boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px" }}>
+                                    <img src={item.imageUrl} alt=""
                                         width={200}
                                         height={200}
                                     />

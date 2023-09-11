@@ -51,7 +51,7 @@ const posts = [
             href: '#',
             imageUrl:
                 'https://i.pravatar.cc/40?Image=1100',
-            delay: 200,
+            delay: '300',
         },
     }
     // More posts...
@@ -71,7 +71,7 @@ export default function BlogSection() {
                     {posts.map((post) => (
                         <article key={post.id} className="flex max-w-xl flex-col items-start justify-between rounded-3xl bg-white shadow-2xl p-3"
                             data-aos="fade-up"
-                            data-aos-duration="1000"
+                            data-aos-duration={post.delay}
                             data-aos-delay={post.delay}
                         >
                             <div className="flex items-center gap-x-4 text-xs">
