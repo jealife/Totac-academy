@@ -7,14 +7,14 @@ export default function Footer() {
 
         <footer class="bg-white dark:bg-blue-300 border-t border-gray-200">
             <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-                <div class="md:flex md:justify-between gap-3">
+                <div class="md:flex md:justify-between gap-5">
                     <div class="mb-6 md:mb-0">
                         <a href="https://totac.vercel.app/" class="flex items-center">
                             <img src={logo} class="h-12 mr-3" alt="TOTAC Logo" />
                             {/* <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">TOTAC</span> */}
                         </a>
                         <div className='pr-9 lg:w-96 pt-3 w-full'>
-                            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400 px14 ">
+                            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400 ">
                                 TOTAC est une académie de formation des formateurs, de formation des consultants et de formation des formateurs digitaux.
                                 TOTAC offre aux entreprises des services d’ingénierie pédagogique et de certification de leurs formateurs internes.
                             </span>
