@@ -13,7 +13,7 @@ export default function Footer() {
                             <img src={logo} class="h-12 mr-3" alt="FlowBite Logo" />
                             {/* <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">TOTAC</span> */}
                         </a>
-                        <div className='pr-9 w-96 pt-3'>
+                        <div className='pr-9 lg:w-96 pt-3 w-full'>
                             <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400 px14 ">
                                 TOTAC est une académie de formation des formateurs, de formation des consultants et de formation des formateurs digitaux.
                                 TOTAC offre aux entreprises des services d’ingénierie pédagogique et de certification de leurs formateurs internes.
