@@ -20,7 +20,7 @@ const servicesCompany = [
 ]
 export default function ServicesCompany() {
     return (
-        <div className='w-full bg-white-100 py-24'>
+        <div className='w-full bg-indigo-100-100 py-24'>
             <div className="mx-auto max-w-7xl px-3 lg:px-8  flex flex-col gap-14  justify-center py-14">
 
                 <div>
