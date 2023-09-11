@@ -31,6 +31,7 @@ function classNames(...classes) {
 export default function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
     const activeLink = "text-blue-700  text-sm font-semibold leading-6";
+    const activeLinkMobile = "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 bg-gray-50";
 
     return (
         <header className="bg-white w-full fixed z-50 top-0 shadow-lg">
@@ -201,20 +202,20 @@ export default function Navbar() {
                                     )}
                                 </Disclosure>
                                 <NavLink
-                                    href="/Accompagnement"
+                                    onTouchCancelCapture="/Accompagnement"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
                                     Accompagnement
                                 </NavLink>
                                 <NavLink
-                                    href="/blog"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    to="/blog"
+                                    className={({ isActive }) => (isActive ? activeLinkMobile : "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50")}
                                 >
                                     Blog
                                 </NavLink>
                                 <NavLink
                                     to="/a-propos"
-                                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                                    className={({ isActive }) => (isActive ? activeLinkMobile : "-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50")}
                                 >
                                     A propos
                                 </NavLink>

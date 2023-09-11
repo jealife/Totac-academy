@@ -63,9 +63,9 @@ export default function Blog() {
     return (
         <Fragment>
             <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-                <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14 pt-14 mt-24">
-                    <h2 class="text-2xl font-bold md:text-4xl md:leading-tight">Totac Blog</h2>
-                    <p class="mt-1 text-gray-600 dark:text-gray-400">See how game-changing companies are making the most of every engagement with Preline.</p>
+                <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14 lg:py-14 mt-24">
+                    <h2 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Totac Blog</h2>
+                    <p class="mt-3 text-gray-600 dark:text-gray-400 ">See how game-changing companies are making the most of every engagement with Preline.</p>
                 </div>
 
                 <div class="grid lg:grid-cols-2 gap-6">
