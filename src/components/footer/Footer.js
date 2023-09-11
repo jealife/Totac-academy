@@ -7,10 +7,10 @@ export default function Footer() {
 
         <footer class="bg-white dark:bg-gray-900">
             <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-                <div class="md:flex md:justify-between">
+                <div class="md:flex md:justify-between gap-3">
                     <div class="mb-6 md:mb-0">
                         <a href="https://totac.vercel.app/" class="flex items-center">
-                            <img src={logo} class="h-12 mr-3" alt="FlowBite Logo" />
+                            <img src={logo} class="h-12 mr-3" alt="TOTAC Logo" />
                             {/* <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">TOTAC</span> */}
                         </a>
                         <div className='pr-9 lg:w-96 pt-3 w-full'>
