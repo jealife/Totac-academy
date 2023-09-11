@@ -35,8 +35,8 @@ export default function ServicesCompany() {
                             "
                                 data-aos="fade-up"
                                 data-aos-duration="1000">
-                                <div className="rounded shadow-xl p-2" style={{ backgroundColor: "#ffffff", borderRadius: 9999, boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px" }}>
-                                    <img className='bg-gray-700' src={item.imageUrl} alt=""
+                                <div className="rounded-full bg-white shadow-xl p-2" style={{boxShadow: "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px" }}>
+                                    <img  src={item.imageUrl} alt=""
                                         width={200}
                                         height={200}
                                     />
