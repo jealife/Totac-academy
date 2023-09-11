@@ -31,7 +31,7 @@ const posts=[
             'Facebook is creating a news section in Watch to feature breaking news',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
-        category: { title: 'Actualité', href: '#' },
+        category: { title: 'Formation', href: '#' },
         imageUrl:'https://unsplash.it/950',
     },
     {
@@ -42,7 +42,7 @@ const posts=[
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo.',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
-        category: { title: 'Actualité', href: '#' },
+        category: { title: 'Quiz', href: '#' },
         imageUrl:'https://unsplash.it/901',
     },
     {
@@ -53,7 +53,7 @@ const posts=[
             'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo.',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
-        category: { title: 'Actualité', href: '#' },
+        category: { title: 'Event', href: '#' },
         imageUrl:'https://unsplash.it/902',
     },
 ]
@@ -77,24 +77,22 @@ export default function Blog() {
                             <img class="w-full h-full absolute top-0 left-0 object-cover" src={post.imageUrl} alt="Image Description" />
                         </div>
 
-                        {/* <div class="absolute top-0 inset-x-0 z-10">
+                        <div class="absolute top-0 inset-x-0 z-10">
                             <div class="p-4 flex flex-col h-full sm:p-6">
 
                                 <div class="flex items-center">
-                                    <div class="flex-shrink-0">
+                                    {/* <div class="flex-shrink-0">
                                         <img class="h-[2.875rem] w-[2.875rem] border-2 border-white rounded-full" src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description" />
-                                    </div>
+                                    </div> */}
                                     <div class="ml-2.5 sm:ml-4">
-                                        <h4 class="font-semibold text-white">
-                                            Gloria
-                                        </h4>
-                                        <p class="text-xs text-white/[.8]">
-                                            Jan 09, 2021
+                                        
+                                        <p class="text-xs text-white/[.8] bg-blue-800 rounded-full p-2">
+                                            {post.category.title}
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
 
                         <div class="absolute bottom-0 inset-x-0 z-10">
                             <div class="flex flex-col h-full p-4 sm:p-6">
