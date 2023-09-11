@@ -6,6 +6,7 @@ import {BrowserRouter} from 'react-router-dom';
 import Navbar from './components/navBar/Navbar';
 import 'transition-style';
 import ScrollToTop from './components/ScrollToTop';
+import Footer from './components/footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,5 +14,6 @@ root.render(
   <ScrollToTop />
     <Navbar/>
     <App />
+    <Footer/>
   </BrowserRouter>
 );

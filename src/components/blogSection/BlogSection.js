@@ -13,7 +13,7 @@ const posts = [
             role: 'Co-Founder / CTO',
             href: '#',
             imageUrl:
-                'https://i.pravatar.cc/40?Image=1000',
+                'https://i.pravatar.cc/40?Image=400',
             delay: 0,
         },
     },
@@ -31,7 +31,7 @@ const posts = [
             role: 'Co-Founder / CTO',
             href: '#',
             imageUrl:
-                'https://i.pravatar.cc/40?Image=1500',
+                'https://i.pravatar.cc/40?Image=450',
             delay: 100,
         },
 
@@ -50,7 +50,7 @@ const posts = [
             role: 'Co-Founder / CTO',
             href: '#',
             imageUrl:
-                'https://i.pravatar.cc/40?Image=1100',
+                'https://i.pravatar.cc/40?Image=500',
             delay: '300',
         },
     }
