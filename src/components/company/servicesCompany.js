@@ -28,7 +28,7 @@ export default function ServicesCompany() {
                         Services aux entreprises
                     </h2>
                 </div>
-                <div className='grid grid-cols-1 lg:grid-cols-3 justify-center gap-5'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 justify-center gap-8'>
                     {
                         servicesCompany.map((item) => (
                             <div className="item flex flex-col justify-center text-center items-center
@@ -41,7 +41,7 @@ export default function ServicesCompany() {
                                         height={200}
                                     />
                                 </div>
-                                <div className="btn">
+                                <div className="-mt-12">
                                     <button className="mt-5 rounded-xl p-3   bg-[blue] hover:bg-blue-600 duration-75 text-white  lg:self-center">
                                         <Link href={item.href}>
                                             {item.name}
