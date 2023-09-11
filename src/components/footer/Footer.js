@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/images/Logo_TOTAC.png'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return (
@@ -12,11 +13,11 @@ export default function Footer() {
                             <img src={logo} class="h-12 mr-3" alt="FlowBite Logo" />
                             {/* <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">TOTAC</span> */}
                         </a>
-                        <div className='pr-9 w-96'>
-                        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400 px14 ">
-                            TOTAC est une académie de formation des formateurs, de formation des consultants et de formation des formateurs digitaux. 
-                            TOTAC offre aux entreprises des services d’ingénierie pédagogique et de certification de leurs formateurs internes.
-                        </span>
+                        <div className='pr-9 w-96 pt-3'>
+                            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400 px14 ">
+                                TOTAC est une académie de formation des formateurs, de formation des consultants et de formation des formateurs digitaux.
+                                TOTAC offre aux entreprises des services d’ingénierie pédagogique et de certification de leurs formateurs internes.
+                            </span>
                         </div>
                     </div>
                     <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -24,14 +25,14 @@ export default function Footer() {
                             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">
                                 <li class="mb-4">
-                                    <a href="https://flowbite.com/" class="hover:underline">Blog</a>
+                                    <Link href="/blog" class="hover:underline">Blog</Link>
                                 </li>
                                 <li>
                                     <a href="https://totac.ma/category/kit-pour-journalistes/" class="hover:underline">Kit pour journaliste</a>
                                 </li>
                             </ul>
                         </div>
-                        
+
                         <div>
                             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">

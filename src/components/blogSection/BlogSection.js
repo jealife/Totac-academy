@@ -69,7 +69,7 @@ export default function BlogSection() {
                 </div>
                 <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
                     {posts.map((post) => (
-                        <article key={post.id} className="flex max-w-xl flex-col items-start justify-between rounded-3xl bg-white shadow-2xl p-3"
+                        <article key={post.id} className="flex max-w-xl flex-col items-start justify-between rounded-3xl bg-white shadow-2xl p-3 HOV"
                             data-aos="fade-up"
                             data-aos-duration={post.delay}
                             data-aos-delay={post.delay}
