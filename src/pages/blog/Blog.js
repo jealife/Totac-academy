@@ -13,7 +13,7 @@ const posts=[
         imageUrl:'https://unsplash.it/910',
     },
     {
-        id: 1,
+        id: 2,
         title: 'Boost your conversion rate',
         href: '#',
         description:
@@ -24,7 +24,7 @@ const posts=[
         imageUrl:'https://unsplash.it/900',
     },
     {
-        id: 1,
+        id: 3,
         title: 'Boost your conversion rate',
         href: '#',
         description:
@@ -35,7 +35,7 @@ const posts=[
         imageUrl:'https://unsplash.it/950',
     },
     {
-        id: 1,
+        id: 4,
         title: 'Boost your conversion rate',
         href: '#',
         description:
@@ -46,7 +46,7 @@ const posts=[
         imageUrl:'https://unsplash.it/901',
     },
     {
-        id: 1,
+        id: 5,
         title: 'Boost your conversion rate',
         href: '#',
         description:
@@ -74,7 +74,7 @@ export default function Blog() {
 
                     <a class="group relative block" href="/">
                         <div class="flex-shrink-0 relative w-full rounded-xl overflow-hidden  h-[350px] before:absolute before:inset-x-0 before:w-full before:h-full before:bg-gradient-to-t before:from-gray-900/[.7] before:z-[1]">
-                            <img class="w-full h-full absolute top-0 left-0 object-cover" src={post.imageUrl} alt="Image Description" />
+                            <img src={post.imageUrl}  class="w-full h-full absolute top-0 left-0 object-cover"  alt="Image Description" />
                         </div>
 
                         <div class="absolute top-0 inset-x-0 z-10">
