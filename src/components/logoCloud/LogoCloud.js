@@ -4,7 +4,8 @@ export default function LogoCloud() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-2xl font-semibold leading-8 text-gray-900"
           data-aos="fade-up"
-          data-aos-duration="500"
+          data-aos-duration="1000"
+          data-aos-delay="300"
         >
           Ils font confiance à notre Académie
         </h2>
