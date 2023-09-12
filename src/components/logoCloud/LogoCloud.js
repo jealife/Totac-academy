@@ -14,35 +14,35 @@ export default function LogoCloud() {
           data-aos-duration="500"
         >
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            className="col-span-2 max-h-12  object-contain lg:col-span-1"
             src="https://totac.ma/wp-content/uploads/2021/09/Logo-JCI-Maroc.png"
             alt="Logo-JCI-Maroc"
             width={200}
             height={200}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            className="col-span-2 max-h-12 object-contain lg:col-span-1"
             src="https://totac.ma/wp-content/uploads/2021/09/ESITH-Emploi-Recrutement-Dreamjob.ma-1.jpg"
             alt="Reform"
             width={200}
             height={200}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            className="col-span-2 max-h-12  object-contain lg:col-span-1"
             src="https://totac.ma/wp-content/uploads/2021/09/Forum-GENI-Entreprise.jpg"
             alt="Forum-GENI-Entreprise"
             width={200}
             height={200}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+            className="col-span-2 max-h-12  object-contain sm:col-start-2 lg:col-span-1"
             src="https://totac.ma/wp-content/uploads/2021/09/logo-AIJE-2-1.png"
             alt="AIJE"
             width={200}
             height={200}
           />
           <img
-            className="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+            className="col-span-2 col-start-2 max-h-12 object-contain sm:col-start-auto lg:col-span-1"
             src="https://totac.ma/wp-content/uploads/2021/09/Tamkine-2.png"
             alt="Tamkine"
             width={200}
