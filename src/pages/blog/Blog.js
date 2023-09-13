@@ -56,6 +56,28 @@ const posts = [
     category: { title: "Event", href: "#" },
     imageUrl: "https://unsplash.it/902",
   },
+  {
+    id: 6,
+    title: "Boost your conversion rate",
+    href: "#",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo.",
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Event", href: "#" },
+    imageUrl: "https://unsplash.it/955",
+  },
+  {
+    id: 7,
+    title: "Boost your conversion rate",
+    href: "#",
+    description:
+      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo.",
+    date: "Mar 16, 2020",
+    datetime: "2020-03-16",
+    category: { title: "Event", href: "#" },
+    imageUrl: "https://unsplash.it/942",
+  },
 ];
 
 export default function Blog() {
@@ -111,8 +133,8 @@ export default function Blog() {
               </a>
             ))}
           </div>
-          <div className="sticky lg:pl-5  mt-12 lg:mt-0  md:grid-cols-2 grid lg:grid-cols-1 grid-cols-1 ">
-            <div>
+          <div className="sticky lg:pl-5 flex lg:flex-col flex-col  mt-12 lg:mt-0  md:flex-row md:justify-between lg:justify-start  ">
+            <div className="min-h-max">
               <div className="pb-4">
                 <h3 className="text-lg font-semibold">
                   Dernières actualités
@@ -159,7 +181,7 @@ export default function Blog() {
               
             </div>
             <iframe
-              className="mt-8 lg:w-96 w-80 h-[500px] border-0 rounded-sm"
+              className="mt-5 lg:w-96 w-80 h-[500px] border-0 lg:rounded-none rounded-2xl"
               src="https://www.facebook.com/v9.0/plugins/page.php?adapt_container_width=true&amp;app_id=113869198637480&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df310a21b6f5a654%26domain%3Ddevelopers.facebook.com%26origin%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Ff3cf179cd85d47c%26relation%3Dparent.parent&amp;container_width=340&amp;height=400&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2F/TOTAC.ma&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=500"
             ></iframe>
             <script
@@ -182,7 +204,7 @@ export default function Blog() {
             </div>
             <div
               class="fblike"
-              data-width=""
+              data-width="320px"
               data-layout=""
               data-action=""
               data-size=""
