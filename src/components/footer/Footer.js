@@ -30,7 +30,7 @@ export default function Footer() {
               </h2>
               <ul class="text-gray-500 dark:text-gray-400 font-medium">
                 <li class="mb-4 flex gap-2">
-                <box-icon type='solid' name='map'style={{width:28}}></box-icon>
+                <box-icon type='solid' name='map' color='#71717A'></box-icon>
                   <Link
                     href="https://www.google.com/maps/place/Tour+Habous,+Rue+L%C3%A9on+l'Africain,+Casablanca+20250/@33.596202,-7.6131029,19.82z/data=!4m5!3m4!1s0xda7d282c9aefdcb:0x44b1c2142249f0c9!8m2!3d33.5962865!4d-7.6129467?hl=fr&coh=164777&entry=tt&shorturl=1"
                     class="hover:underline"
