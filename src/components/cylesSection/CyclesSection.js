@@ -96,7 +96,7 @@ export default function CyclesSection() {
                             </div>
 
                             <div className="text-gray-900 pt-8 px-4 w-full border-b-[1px]">
-                                <h3 className='font-bold text-2xl'>Formation des Consultants</h3>
+                                <h3 className='font-bold text-2xl'>Devenez Formateur Digital</h3>
                             </div>
                             <div className="px-2 pt-2">
                                 <p className='text-gray-500'>
