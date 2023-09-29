@@ -79,20 +79,22 @@ const posts = [
     imageUrl: "https://unsplash.it/942",
   },
 ];
+console.log(posts[0].imageUrl);
 
 export default function Blog() {
   return (
     <Fragment>
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div className=" mx-auto text-center mb-10 lg:mb-14 lg:py-14 mt-20 py-14 w-full rounded-2xl bg-blue-700  ">
-
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-6xl">
-            Totac Blog
-          </h2>
-          <p className="mt-3 text-gray-600 dark:text-gray-400 ">
-            See how game-changing companies are making the most of every
-            engagement with Preline.
-          </p>
+        <div className="relative mx-auto text-center lg:h-max mb-10 lg:mb-14  mt-20  bg-[url('https://unsplash.it/910')] bg-cover bg-no-repeat bg-center   w-full rounded-2xl ">
+          <div className=" w-full h-full bg-black/60   py-36   rounded-2xl">
+            <h2 className="text-3xl font-bold  tracking-tight text-white sm:text-6xl">
+              Totac Blog
+            </h2>
+            <p className="mt-3 text-gray-200 dark:text-gray-200 ">
+              See how game-changing companies are making the most of every
+              engagement with Preline.
+            </p>
+          </div>
         </div>
         <div className="grid lg:grid-cols-4 grid-cols-1 ">
           <div className="grid lg:grid-cols-2 md:grid-cols-2 gap-6 col-span-3 ">
@@ -137,9 +139,7 @@ export default function Blog() {
           <div className="sticky lg:pl-5 flex lg:flex-col flex-col  mt-12 lg:mt-0  md:flex-row md:justify-between lg:justify-start  ">
             <div className="min-h-max">
               <div className="pb-4">
-                <h3 className="text-lg font-semibold">
-                  Dernières actualités
-                </h3>
+                <h3 className="text-lg font-semibold">Dernières actualités</h3>
               </div>
               <a className="group rounded-xl overflow-hidden" href="/">
                 <div className="block">
@@ -179,7 +179,6 @@ export default function Blog() {
                   </div>
                 </div>
               </a>
-              
             </div>
             <iframe
               className="mt-5 lg:w-96 w-80 h-[500px] border-0 lg:rounded-none rounded-2xl"
