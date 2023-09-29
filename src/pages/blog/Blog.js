@@ -84,8 +84,9 @@ export default function Blog() {
   return (
     <Fragment>
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14 lg:py-14 mt-24">
-          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+        <div className=" mx-auto text-center mb-10 lg:mb-14 lg:py-14 mt-20 py-14 w-full rounded-2xl bg-blue-700  ">
+
+          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-6xl">
             Totac Blog
           </h2>
           <p className="mt-3 text-gray-600 dark:text-gray-400 ">
