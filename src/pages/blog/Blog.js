@@ -86,7 +86,7 @@ export default function Blog() {
     <Fragment>
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="relative mx-auto text-center lg:h-max mb-10 lg:mb-14  mt-20  bg-[url('https://unsplash.it/910')] bg-cover bg-no-repeat bg-center   w-full rounded-2xl ">
-          <div className=" w-full h-full bg-black/60   py-36   rounded-2xl">
+          <div className=" w-full h-full bg-black/60   lg:py-36 py-12 px-3   rounded-2xl">
             <h2 className="text-3xl font-bold  tracking-tight text-white sm:text-6xl">
               Totac Blog
             </h2>
