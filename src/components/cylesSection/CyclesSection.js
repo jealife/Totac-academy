@@ -23,7 +23,7 @@ import onlineFormateur from '../../assets/images/Man talking to a woman on a vid
 
 export default function CyclesSection() {
     return (
-        <div className='w-full bg-gradient-to-t from-[#b3e1ff] py-14'>
+        <div className='w-full bg-gradient-to-t from-[#0400ff] py-14'>
             <div className="mx-auto max-w-7xl px-3 lg:px-8  flex flex-col gap-14  justify-center py-10" id='cyles'>
                 <h1 className='text-gray-900 font-semibold text-3xl text-center'>Cycles de Formation</h1>
                 <div className='grid grid-cols-1 lg:grid-cols-3 justify-center gap-5'>
