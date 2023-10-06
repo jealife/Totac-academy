@@ -1,6 +1,6 @@
 import { Link } from "react-scroll";
 // import graduate from '../../assets/images/Graduation Certificate (HD).png'
-import HoldingLightBublb from "../../assets/images/Holding Lightbulb.png";
+import imageHero from "../../assets/images/man smiling.png";
 
 export default function Hero() {
   return (
@@ -65,12 +65,12 @@ export default function Hero() {
             </div>
           </div>
           <div
-            className="image-hero w-full flex items-center  justify-center pt-3"
+            className="image-hero w-full flex items-center  justify-center pt-5"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="300"
           >
-            <img src={HoldingLightBublb} width={300} alt="" />
+            <img src={imageHero} width={300} alt="" />
           </div>
         </div>
         <div

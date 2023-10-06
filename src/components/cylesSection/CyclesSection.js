@@ -1,4 +1,7 @@
 import React from 'react'
+import consultant from '../../assets/images/Team of employees discussing the project.png'
+import formateur from '../../assets/images/Inclusive education and diversity in the classroom.png'
+import onlineFormateur from '../../assets/images/Man talking to a woman on a video call.png'
 
 // const cycles = [
 //     {
@@ -20,7 +23,7 @@ import React from 'react'
 
 export default function CyclesSection() {
     return (
-        <div className='w-full bg-indigo-100 py-14'>
+        <div className='w-full bg-gradient-to-t from-[#b3e1ff] py-14'>
             <div className="mx-auto max-w-7xl px-3 lg:px-8  flex flex-col gap-14  justify-center py-10" id='cyles'>
                 <h1 className='text-gray-900 font-semibold text-3xl text-center'>Cycles de Formation</h1>
                 <div className='grid grid-cols-1 lg:grid-cols-3 justify-center gap-5'>
@@ -37,7 +40,7 @@ export default function CyclesSection() {
                         <div className="w-full text-center px-4 flex flex-col  justify-center relative  items-center md:w-96 ">
                             <div className="w-full flex justify-center item-center">
 
-                                <img className='w-72 -mb-20  pb-2' src='https://totac.ma/wp-content/uploads/2023/05/Consultative-sales-pana-1536x1536.png'
+                                <img className='w-72 -mb-14  pt-2' src={consultant}
                                     alt=""
                                 />
                             </div>
@@ -63,7 +66,7 @@ export default function CyclesSection() {
                         <div className="w-full text-center px-4 flex flex-col  justify-center relative  items-center ">
                             <div className="w-full flex justify-center item-center">
 
-                                <img className='w-72  py-5 mt-5  ' src="https://totac.ma/wp-content/uploads/2023/05/Fichier-1.png"
+                                <img className='w-72  py-5 -mb-14 ' src={formateur}
                                     alt=""
                                 />
                             </div>
@@ -90,7 +93,7 @@ export default function CyclesSection() {
                         <div className="w-full text-center px-4 flex flex-col  justify-center relative  items-center ">
                             <div className="w-full flex justify-center item-center">
 
-                                <img className='w-64 -mb-9  ' src="https://totac.ma/wp-content/uploads/2023/05/Webinar-amico-1024x1024.png"
+                                <img className='w-64 -mb-3 pt-3  ' src={onlineFormateur}
                                     alt=""
                                 />
                             </div>
@@ -98,7 +101,7 @@ export default function CyclesSection() {
                             <div className="text-gray-900 pt-8 px-4 w-full border-b-[1px]">
                                 <h3 className='font-bold text-2xl'>Devenez Formateur Digital</h3>
                             </div>
-                            <div className="px-2 pt-2">
+                            <div className="px-2 pt-10">
                                 <p className='text-gray-500'>
                                     Apprenez à créer des formations, les animer et les vendre à 100 % en ligne. Ce cycle allie habilement le digital learning et l’innovation pédagogique.
                                 </p>
