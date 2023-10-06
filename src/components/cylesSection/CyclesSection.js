@@ -93,7 +93,7 @@ export default function CyclesSection() {
                         <div className="w-full text-center px-4 flex flex-col  justify-center relative  items-center ">
                             <div className="w-full flex justify-center item-center">
 
-                                <img className='w-64 -mb-3 pt-3  ' src={onlineFormateur}
+                                <img className='w-64 -mb-3 pt-10  ' src={onlineFormateur}
                                     alt=""
                                 />
                             </div>
@@ -101,7 +101,7 @@ export default function CyclesSection() {
                             <div className="text-gray-900 pt-8 px-4 w-full border-b-[1px]">
                                 <h3 className='font-bold text-2xl'>Devenez Formateur Digital</h3>
                             </div>
-                            <div className="px-2 pt-10">
+                            <div className="px-2 pt-2">
                                 <p className='text-gray-500'>
                                     Apprenez à créer des formations, les animer et les vendre à 100 % en ligne. Ce cycle allie habilement le digital learning et l’innovation pédagogique.
                                 </p>
