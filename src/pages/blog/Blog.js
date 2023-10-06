@@ -212,10 +212,10 @@ export default function Blog() {
                 </div>
               </a>
             </div>
-            <iframe
+            {/* <iframe
               className="mt-5 lg:w-96 w-80 h-[500px] border-0 lg:rounded-none rounded-2xl"
               src="https://www.facebook.com/v9.0/plugins/page.php?adapt_container_width=true&amp;app_id=113869198637480&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df310a21b6f5a654%26domain%3Ddevelopers.facebook.com%26origin%3Dhttps%253A%252F%252Fdevelopers.facebook.com%252Ff3cf179cd85d47c%26relation%3Dparent.parent&amp;container_width=340&amp;height=400&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2F/TOTAC.ma&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline&amp;width=500"
-            ></iframe>
+            ></iframe> */}
             <script
               type="text/javascript"
               src="https://www.embedista.com/j/fbwidget.js"
@@ -229,7 +229,7 @@ export default function Blog() {
                 width: 0,
               }}
             >
-              "{" "}
+              {" "}
               <a href="https://www.embedista.com/embed-facebook-feed">
                 Embed Facebook Feed
               </a>

@@ -37,7 +37,7 @@ export default function CyclesSection() {
                         <div className="w-full text-center px-4 flex flex-col  justify-center relative  items-center md:w-96 ">
                             <div className="w-full flex justify-center item-center">
 
-                                <img className='w-72 -mb-20  pb-2' src='https://totac.ma/wp-content/uploads/2023/05/Consultative-sales-pana-1024x1024.png'
+                                <img className='w-72 -mb-20  pb-2' src='https://totac.ma/wp-content/uploads/2023/05/Consultative-sales-pana-1536x1536.png'
                                     alt=""
                                 />
                             </div>

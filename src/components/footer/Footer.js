@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/Logo_TOTAC.png";
 import { Link } from "react-router-dom";
-import "boxicons";
 
 export default function Footer() {
   return (
